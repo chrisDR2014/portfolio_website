@@ -1,0 +1,43 @@
+/* .instagram-button {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.instagram-button {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+  border: none;
+}
+
+.icon-container {
+  margin: 75px auto;
+  width: 95%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.instagram-button:hover {
+  filter: brightness(110%);
+}
+
+.instagram-button:active {
+  filter: brightness(120%);
+}
+
+.github-button {
+  background: black;
+  border: none;
+}
+
+.card-text {
+  height: 125px;
+}
